@@ -2,9 +2,9 @@
 
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
-import { cn } from "@/src/lib/utils";
-import { pricing } from "@/src/lib/pricing";
-import type { ConfiguratorState } from "@/src/types/configurator";
+import { cn } from "@/lib/utils";
+import { pricing } from "@/lib/pricing";
+import type { ConfiguratorState } from "@/types/configurator";
 
 type ModelStepProps = {
   state: ConfiguratorState;

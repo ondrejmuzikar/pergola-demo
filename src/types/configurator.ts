@@ -1,4 +1,4 @@
-import type pricingConfig from "@/src/config/pricing.json";
+import type pricingConfig from "@/config/pricing.json";
 
 export type PricingConfig = typeof pricingConfig;
 

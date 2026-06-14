@@ -1,10 +1,10 @@
-import pricingConfig from "@/src/config/pricing.json";
+import pricingConfig from "@/config/pricing.json";
 import type {
   ConfiguratorState,
   Model,
   PriceBreakdown,
   PricingConfig,
-} from "@/src/types/configurator";
+} from "@/types/configurator";
 
 export const pricing: PricingConfig = pricingConfig;
 

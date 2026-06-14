@@ -3,18 +3,18 @@
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { Button } from "@/src/components/ui/button";
-import { LivePreview } from "@/src/components/configurator/LivePreview";
-import { StepIndicator } from "@/src/components/configurator/StepIndicator";
-import { DimensionsStep } from "@/src/components/configurator/steps/DimensionsStep";
-import { LeadCaptureStep } from "@/src/components/configurator/steps/LeadCaptureStep";
-import { ModelStep } from "@/src/components/configurator/steps/ModelStep";
-import { OptionsStep } from "@/src/components/configurator/steps/OptionsStep";
+import { Button } from "@/components/ui/button";
+import { LivePreview } from "@/components/configurator/LivePreview";
+import { StepIndicator } from "@/components/configurator/StepIndicator";
+import { DimensionsStep } from "@/components/configurator/steps/DimensionsStep";
+import { LeadCaptureStep } from "@/components/configurator/steps/LeadCaptureStep";
+import { ModelStep } from "@/components/configurator/steps/ModelStep";
+import { OptionsStep } from "@/components/configurator/steps/OptionsStep";
 import {
   calculatePrice,
   getDefaultState,
-} from "@/src/lib/pricing";
-import type { ConfiguratorState } from "@/src/types/configurator";
+} from "@/lib/pricing";
+import type { ConfiguratorState } from "@/types/configurator";
 
 const TOTAL_STEPS = 4;
 

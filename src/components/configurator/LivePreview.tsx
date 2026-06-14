@@ -8,10 +8,10 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/src/components/ui/card";
-import { getModel, pricing } from "@/src/lib/pricing";
-import { formatCurrency } from "@/src/lib/utils";
-import type { ConfiguratorState, PriceBreakdown } from "@/src/types/configurator";
+} from "@/components/ui/card";
+import { getModel, pricing } from "@/lib/pricing";
+import { formatCurrency } from "@/lib/utils";
+import type { ConfiguratorState, PriceBreakdown } from "@/types/configurator";
 
 type LivePreviewProps = {
   state: ConfiguratorState;

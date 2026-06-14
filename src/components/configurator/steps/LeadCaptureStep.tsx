@@ -3,16 +3,16 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2, Mail, Phone, User } from "lucide-react";
-import { Button } from "@/src/components/ui/button";
-import { Input } from "@/src/components/ui/input";
-import { Label } from "@/src/components/ui/label";
-import { getModel, pricing } from "@/src/lib/pricing";
-import { formatCurrency } from "@/src/lib/utils";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { getModel, pricing } from "@/lib/pricing";
+import { formatCurrency } from "@/lib/utils";
 import type {
   ConfiguratorState,
   LeadFormData,
   PriceBreakdown,
-} from "@/src/types/configurator";
+} from "@/types/configurator";
 
 type LeadCaptureStepProps = {
   state: ConfiguratorState;

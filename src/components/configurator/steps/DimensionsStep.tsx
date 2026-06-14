@@ -1,9 +1,9 @@
 "use client";
 
-import { Label } from "@/src/components/ui/label";
-import { Slider } from "@/src/components/ui/slider";
-import { pricing } from "@/src/lib/pricing";
-import type { ConfiguratorState } from "@/src/types/configurator";
+import { Label } from "@/components/ui/label";
+import { Slider } from "@/components/ui/slider";
+import { pricing } from "@/lib/pricing";
+import type { ConfiguratorState } from "@/types/configurator";
 
 type DimensionsStepProps = {
   state: ConfiguratorState;

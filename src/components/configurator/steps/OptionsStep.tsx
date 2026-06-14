@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { cn, formatCurrency } from "@/src/lib/utils";
-import { pricing } from "@/src/lib/pricing";
-import type { ConfiguratorState, PricingConfig } from "@/src/types/configurator";
+import { cn, formatCurrency } from "@/lib/utils";
+import { pricing } from "@/lib/pricing";
+import type { ConfiguratorState, PricingConfig } from "@/types/configurator";
 
 type OptionsStepProps = {
   state: ConfiguratorState;

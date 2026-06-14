@@ -1,0 +1,142 @@
+{
+  "currency": "USD",
+  "currencySymbol": "$",
+  "priceRangeVariance": 0.12,
+  "models": [
+    {
+      "id": "bioclimatic",
+      "name": "Bioclimatic Elite",
+      "tagline": "Motorized louvers, all-weather precision",
+      "description": "Our flagship aluminum pergola with 120° adjustable louvers and integrated drainage.",
+      "basePrice": 18500,
+      "previewColor": "#1a1a1a",
+      "accentColor": "#a3e635",
+      "features": ["Motorized louvers", "Rain sensor", "Powder-coated aluminum"]
+    },
+    {
+      "id": "retractable",
+      "name": "Retractable Sky",
+      "tagline": "Fabric canopy, open-sky freedom",
+      "description": "Premium retractable fabric roof with whisper-quiet motor and UV-resistant canopy.",
+      "basePrice": 14200,
+      "previewColor": "#141414",
+      "accentColor": "#bef264",
+      "features": ["Retractable canopy", "Wind sensor", "Integrated LED-ready"]
+    },
+    {
+      "id": "fixed",
+      "name": "Fixed Horizon",
+      "tagline": "Minimal lines, maximum presence",
+      "description": "Architectural fixed-roof pergola with clean geometry and optional glass panels.",
+      "basePrice": 11800,
+      "previewColor": "#0f0f0f",
+      "accentColor": "#84cc16",
+      "features": ["Fixed aluminum roof", "Hidden fasteners", "Glass-wall ready"]
+    }
+  ],
+  "dimensions": {
+    "width": {
+      "min": 3,
+      "max": 8,
+      "step": 0.5,
+      "default": 4,
+      "unit": "m",
+      "label": "Width",
+      "pricePerUnit": 2800
+    },
+    "depth": {
+      "min": 2.5,
+      "max": 6,
+      "step": 0.5,
+      "default": 3,
+      "unit": "m",
+      "label": "Depth",
+      "pricePerUnit": 2200
+    }
+  },
+  "options": {
+    "lighting": {
+      "label": "Lighting",
+      "description": "Illuminate your outdoor space",
+      "choices": [
+        {
+          "id": "none",
+          "name": "No lighting",
+          "price": 0
+        },
+        {
+          "id": "led-strip",
+          "name": "Perimeter LED Strip",
+          "price": 1450,
+          "preview": "glow"
+        },
+        {
+          "id": "spotlights",
+          "name": "Recessed Spotlights",
+          "price": 2100,
+          "preview": "spots"
+        },
+        {
+          "id": "ambient-full",
+          "name": "Full Ambient Package",
+          "price": 3200,
+          "preview": "full-glow"
+        }
+      ]
+    },
+    "heating": {
+      "label": "Heating",
+      "description": "Year-round comfort",
+      "choices": [
+        {
+          "id": "none",
+          "name": "No heating",
+          "price": 0
+        },
+        {
+          "id": "infrared-2",
+          "name": "2× Infrared Heaters",
+          "price": 2400,
+          "preview": "heat"
+        },
+        {
+          "id": "infrared-4",
+          "name": "4× Infrared Heaters",
+          "price": 4200,
+          "preview": "heat-full"
+        }
+      ]
+    },
+    "extras": {
+      "label": "Extras",
+      "description": "Premium add-ons",
+      "multiSelect": true,
+      "choices": [
+        {
+          "id": "glass-walls",
+          "name": "Sliding Glass Walls",
+          "price": 5800,
+          "preview": "glass"
+        },
+        {
+          "id": "zip-screens",
+          "name": "Zip Screens",
+          "price": 3200,
+          "preview": "screens"
+        },
+        {
+          "id": "smart-control",
+          "name": "Smart Home Integration",
+          "price": 1650,
+          "preview": "smart"
+        },
+        {
+          "id": "sound-system",
+          "name": "Outdoor Sound System",
+          "price": 2900,
+          "preview": "sound"
+        }
+      ]
+    }
+  }
+}
